@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Digital</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="script.js"></script>
+</head>
+<div class="logo2">
+  <img src="./Images/White Logo.png" alt="Logo2">
+</div>
+<body>
+  <div class="nav-toggle">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    
+  </div>
+  
+  <div class="nav-panel">
+    <nav class="Navbar">
+      <div class="logo">
+        <img src="./Images/White Logo.png" alt="Logo">
+      </div>
+      <ul>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><a href="#">CAREERS</a></li>
+      </ul>
+    </nav>
+  </div>
+    <section class="hero">
+        <div class="overlay"></div> 
+        <div class="frame">
+          <h2>We crush your competitors, goals, and sales records - without the B.S.</h2>
+        </div>
+        <div class="button">
+          <button>Get free consultation</button>
+        </div>
+        <div class="hero-content"></div>
+    </section>
+    <section>
+      <div class='web'>
+        <div class='web-left'>
+          <img src='./Images/image 2.png' alt="" class='about-img' />
+        </div>
+        <div class='web-right'>
+          <h2 class='web-h2'>Web & Mobile App Development</h2>
+          <p class="web-p">Your web and mobile Apps are pieces of the puzzle to grow your business. 
+            We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
+            <br>
+          <button class="btn">Learn More</button>
+        </div> 
+      </div>
+    </section>
+    <section>
+      <div class='digital'>
+        <div class='digital-left'>
+          <img src='./Images/image 1.png' alt="" class='about-img' />
+        </div>
+        <div class='digital-right'>
+          <h2 class='web-h2'>Digital Strategy Consulting</h2>
+          <p class="web-p">Your digital strategy should complement the overall marketing strategy of the company. 
+            In online marketing, each component will never work in isolation and every business needs a different mix. 
+            We provide a clear concept and strategic overview to find the most efficient model for your business.</p><br>
+          <button class="btn">Learn More</button>
+        </div> 
+      </div>
+    </section>
+    <section class="FQA">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-container">
+            <details>
+                <summary class="toggle-summary">Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum.<br>Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.      </p>
+            </details>
+            <details>
+                <summary class="toggle-summary">Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</summary>
+                <p>Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices.<br>Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+            </details>
+            <details>
+              <summary class="toggle-summary">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</summary>
+              <p>Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices.<br>Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.</p>
+          </details>
+        </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="logo-container">
+            <img src="./Images/White Logo.png" class="logo-w">
+          </div>
+          <br>
+          <p class="footer-col-p">Your goal is our target. Not anything in between.We use online marketing platforms and tools to achieve a single objective - your business results.</p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Our Technologies</h3>
+          <ul  class="footer-heading">
+            <li><a href="#">ReactJS</a></li>
+            <li><a href="#">Gatsby</a></li>
+            <li><a href="#">Next.JS</a></li>
+            <li><a href="#">NodeJS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-heading">Our Services</h3>
+          <ul class="footer-heading">
+            <li><a href="#">Social Media Marketing</a></li>
+            <li><a href="#">Web & Mobile App<br>Development</a></li>
+            <li><a href="#">Data & Analytics</a></li>
+          </ul>
+        </div>  
+      </div>
+      <div class="Policy">
+        <ul>
+          <hr class="hr"><br>
+          <li class="pr"><a class="pr">Privacy Policy | Terms & Conditions</a></li>
+      </ul>      
+      </div>
+    </footer>
+</body>
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function() {
+  this.classList.toggle('open');
+  document.querySelector('.nav-panel').classList.toggle('open');
+});
+</script>
+</html>
